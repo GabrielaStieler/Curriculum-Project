@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo</title>
+    <link rel="icon" href=".././assets/visual.png">
+    <link rel="stylesheet" type="text/css" href=".././css/mystyle.css">
+</head>
+<body>
+    
+    <img src=".././assets/visual.png"><br><br>
+
+
+
+    <button class="button" type="submit" value="voltar" id="Voltar">Voltar</button>
+
+    <script src="../app/visualizacao.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
+
+<!--<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão dos Dados</title>
+    <link rel="stylesheet" type="text/css" href=".././css/mystyle.css">
+</head>
+<body>
+
+    <h1>Revisão dos Dados</h1>
+
+    <h2>Dados Pessoais</h2>
+    <p><strong>Nome Completo:</strong> <span id="revNome"></span></p>
+    <p><strong>Email:</strong> <span id="revEmail"></span></p>
+    <p><strong>Telefone:</strong> <span id="revTelefone"></span></p>
+
+    <h2>Experiências</h2>
+    <p><strong>Empresa:</strong> <span id="revEmpresa"></span></p>
+    <p><strong>Cargo:</strong> <span id="revCargo"></span></p>
+    <p><strong>Período:</strong> <span id="revDataInicio"></span> até <span id="revDataFim"></span></p>
+
+    <h2>Formação</h2>
+    <p><strong>Instituição:</strong> <span id="revInstituicao"></span></p>
+    <p><strong>Curso:</strong> <span id="revCurso"></span></p>
+    <p><strong>Ano de Conclusão:</strong> <span id="revData"></span></p>
+
+    <script>
+        // Pega os dados do localStorage e coloca nos lugares corretos
+        const dadosPessoais = JSON.parse(localStorage.getItem("dados"));
+        document.getElementById("revNome").textContent = dadosPessoais.nome;
+        document.getElementById("revEmail").textContent = dadosPessoais.email;
+        document.getElementById("revTelefone").textContent = dadosPessoais.telefone;
+
+        const experiencias = JSON.parse(localStorage.getItem("experiências"));
+        document.getElementById("revEmpresa").textContent = experiencias.empresa;
+        document.getElementById("revCargo").textContent = experiencias.cargo;
+        document.getElementById("revDataInicio").textContent = experiencias.dataInicio;
+        document.getElementById("revDataFim").textContent = experiencias.dataFim;
+
+        const formacao = JSON.parse(localStorage.getItem("formação"));
+        document.getElementById("revInstituicao").textContent = formacao.instituicao;
+        document.getElementById("revCurso").textContent = formacao.curso;
+        document.getElementById("revData").textContent = formacao.data;
+    </script>
+    
+</body>
+</html>
+-->

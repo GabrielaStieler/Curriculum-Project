@@ -1,0 +1,98 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&display=swap');
+
+
+body{
+
+    background-image: url(https://i.pinimg.com/originals/df/f3/fd/dff3fd3a117c835f6d0058ceb316bd32.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    width: 100px;
+}
+
+.tittle{
+    font-size: 18px;
+    font-family:cursive;
+}
+
+.text{
+    background-color: #faedfc;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.date{
+    background-color: #faedfc;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.button{
+    color: #8b1a96;
+    background-color: #fffae6;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 18px;
+    border: none;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button_menu{
+    color: #8b1a96;
+    background-color: #fffae6;
+    padding: 15px;
+    width: 200px;
+    border-radius: 15px;
+    margin: 18px;
+    border: none;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    color: #fffae6;
+    background-color: #8b1a96;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input::placeholder {
+    color: #d69fdd;
+    font-style: italic;
+  }
+
+.fundo{
+    background-color: #fbe0ff;
+}
+
+.titulo {
+    font-family: 'Playpen Sans', cursive;
+    color: #33023a;
+}
+
+.meu-botao.swal2-confirm {
+    background-color: #730781;
+    color: #faedfc;
+}

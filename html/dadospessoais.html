@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados Pessoais</title>
+    <link rel="icon" href=".././assets/dados.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href=".././css/mystyle.css">
+</head>
+<body class="">
+
+    <img src=".././assets/dados.png">
+
+    <h1>Dados Pessoais</h1>
+
+    <br><form>
+        <p>
+            <label class="tittle">Nome Completo</label><br><br>
+            <input class="text" placeholder="Digite nome completo" type="text" minlength="12" id="nome" required><br>
+        </p>
+        <p>
+            <label class="tittle">E-mail</label><br><br>
+            <input class="text" placeholder="email@dominio.br" type="email" id="email" required><br>
+        </p>
+        <p>
+            <label class="tittle">Telefone</label><br><br>
+            <input class="text" type="tel" id="tel" placeholder="(31) 98235-6543" minlength="15" maxlength="15" pattern="[0-9]{11}" required><br>
+        </p>
+        <p>
+            <button class="button" value="Voltar" id="Voltar">Voltar</button>
+            <button class="button" type="reset" value="Limpar">Limpar</button>
+            <button class="button" type="submit" value="Enviar" id="Enviar">Enviar</button>
+        </p>
+    </form><br>
+
+    <script src="../app/dadospessoais.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</body>
+</html>

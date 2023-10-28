@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiências</title>
+    <link rel="icon" href=".././assets/xp.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href=".././css/mystyle.css">
+</head>
+<body class="">
+
+    <img src=".././assets/xp.png">
+
+    <h1>Experiências</h1>
+
+    <br><form>
+        <p>
+            <label class="tittle">Empresa</label><br><br>
+            <input class="text" placeholder="Digite o nome da empresa" id="empresa" type="text" required><br>
+        </p>
+        <p>
+            <label class="tittle">Cargo</label><br><br>
+            <input class="text" placeholder="Digite o cargo que atua" id="cargo" type="email" required><br>
+        </p>
+        <p>
+            <label class="tittle">Período</label><br><br>
+            <input class="date" id="data1" type="date" required> até <input class="date" id="data2" type="date" required><br>
+        </p>
+        <p>
+            <button class="button" id="Voltar" type="submit" value="Voltar">Voltar</button>
+            <button class="button" type="reset" value="Limpar">Limpar</button>
+            <button class="button" id="Enviar" type="submit" value="Enviar">Enviar</button>
+        </p>
+    </form><br>
+
+    <script src="../app/experiencias.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="icon" href=".././assets/user.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href=".././css/mystyle.css">
+</head>
+<body>
+
+    <img src=".././assets/user.png">
+    
+    <h1>Cadastro</h1>
+
+    <br><form>
+        <p>
+            <label class="tittle">Usuário</label><br><br>
+            <input class="text" placeholder="Apelido" type="text" id="usuario"><br>
+        </p>
+        <p>
+            <label class="tittle">E-mail</label><br><br>
+            <input class="text" placeholder="email@dominio.br" type="text" id="email"><br>
+        </p>
+        <p>
+            <label class="tittle">Senha</label><br><br>
+            <input class="text" placeholder="Digite sua senha" type="password" id="senha"><br>
+        </p>
+        <p>
+            <label class="tittle">Confirme a senha</label><br><br>
+            <input class="text" placeholder="Digite novamente" type="password" id="confirma-senha"><br>
+        </p>
+        <p>
+            <button class="button" type="submit" value="Login" id="Login">Login</button>
+            <button class="button" type="reset" value="Limpar">Limpar</button>
+            <button class="button" type="submit" value="Cadastrar" id="Cadastro">Cadastrar</button>
+        </p>
+    </form><br>
+
+    <script src="../app/cadastro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
